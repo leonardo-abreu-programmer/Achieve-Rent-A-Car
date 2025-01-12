@@ -25,14 +25,14 @@ class Controller extends BaseController
     $this->data['locale'] = $locale;
     app()->setLocale($this->data['locale']);
     
-    $this->data['discount'] = array(
+    /*$this->data['discount'] = array(
       "text" => "Free baby seats | Book now!",
       "texto" => "Cadeiras para bebés gratuitas | Reserve já",
       "text_mobile" => "Free baby seats | Book now!",
       "texto_mobile" => "Cadeiras para bebés gratuitas | Reserve já",
       "color" => "red",
       "text_color" => "white",
-    );
+    );*/
     
   }
 }
